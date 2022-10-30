@@ -10,7 +10,7 @@ class apiController extends Controller
         return response()->json([
             'success' => true,
             'data' => [
-                'slackusername' => "priscaEbuka",
+                'slackUsername' => "priscaEbuka",
                 'backend' => true,
                 'age' => 21,
                 'bio' => "i am determined",
