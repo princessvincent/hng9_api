@@ -8,13 +8,10 @@ class apiController extends Controller
 {
     function user(){
         return response()->json([
-            'success' => true,
-            'data' => [
                 'slackUsername' => "priscaEbuka",
                 'backend' => true,
                 'age' => 21,
-                'bio' => "i am determined",
-            ]
+                'bio' => "i am determined and optimistic",
 
         ]);
            
